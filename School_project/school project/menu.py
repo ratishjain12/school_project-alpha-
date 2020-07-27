@@ -24,6 +24,14 @@ def Reportcard():
 def Fee_status():
     root.withdraw()
     from fee_status import fee_window
+    
+def Student_info():
+    root.withdraw()
+    from student_info import studentInfoGui
+
+def attendance():
+    root.withdraw()
+    from attendence import attendenceGui
 
 
 frame = Frame(root,bg = "yellow")
